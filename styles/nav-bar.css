@@ -1,0 +1,17 @@
+.nav-bar {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    
+
+}
+.nav-bar > .left-content > .codepen img {
+    height: 40px;
+   
+}
+.nav-bar > .middle-content {
+    display: flex;
+    justify-content: center;
+
+
+}
