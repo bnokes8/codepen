@@ -2,16 +2,75 @@
     background-color: black;
     height: 100px;
     width: 100%;
-    
-
+    display: flex;
+    justify-content: space-between;
+    margin: none;
 }
-.nav-bar > .left-content > .codepen img {
-    height: 40px;
-   
-}
-.nav-bar > .middle-content {
+.nav-bar > .image-wrapper-codepen {
+    height: 100px;
+    width: 180px;
     display: flex;
     justify-content: center;
-
-
+    
+    
 }
+.nav-bar > .image-wrapper-codepen img {
+    height: 40px;
+    width: 165px;
+    padding-top: 30px;
+}
+.nav-links  {
+    color: white;
+    display: flex;
+    justify-content:flex-end ;
+    height: 100%;
+    width: 240px;
+    margin-left: -180px;
+    margin-top: 15px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.pens {
+    margin-right: 10px;
+    margin-top: 35px;
+    
+    
+}
+.projects {
+    margin-right: 10px;
+    margin-top: 35px;
+
+    
+}
+.posts {
+    margin-right: 10px;
+    margin-top: 35px;
+
+    
+}
+.collections {
+    margin-top: 35px;
+}
+.explore {
+    color: #FFDD30;
+    height: 15px;
+    width: 101.78px;
+    font-size: .9rem;
+    
+}
+.spark {
+    color: white;
+    height: 100%;
+    margin-top: 51px;
+    margin-left: -250px;
+    font-size: 1.3rem;
+}
+.create {
+    color: white;
+    display: flex;
+    justify-content
+   
+}
+
