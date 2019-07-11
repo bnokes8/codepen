@@ -11,25 +11,24 @@
     width: 180px;
     display: flex;
     justify-content: center;
-    
-    
+    align-items: center;   
 }
 .nav-bar > .image-wrapper-codepen img {
     height: 40px;
     width: 165px;
-    padding-top: 30px;
 }
 .nav-links  {
     color: white;
     display: flex;
     justify-content:flex-end ;
     height: 100%;
-    width: 240px;
-    margin-left: -180px;
+    width: 300px;
+    margin-left: -50px;
     margin-top: 15px;
     font-family: 'Ubuntu Condensed', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+    align-items: flex-start; 
 }
 
 .pens {
@@ -63,14 +62,80 @@
 .spark {
     color: white;
     height: 100%;
-    margin-top: 51px;
-    margin-left: -250px;
+    margin-top: 50px;
+    margin-left: ;
     font-size: 1.3rem;
 }
 .create {
     color: white;
     display: flex;
-    justify-content
-   
+    justify-content: center;
+    width: 125px;
+    background-color: #666666 ;
+    font-family: 'Lato', sans-serif;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
 }
+.create-wrapper {
+    display: flex;
+    align-items: center;
+}
+.create > .chevron {
+    width: 15px;
+    height: 15px;
+    color: #52ba2d;
+    align-items: center;
 
+}
+.log-in {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    background-color: #666666 ;
+    font-family: 'Lato', sans-serif;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.log-in-wrapper {
+    width: 125px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.sign-up {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 125px;
+    background-color: #666666 ;
+    font-family: 'Lato', sans-serif;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.sign-up-wrapper {
+    width: 125px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.search-logo {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: #898989;
+}
