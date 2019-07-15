@@ -1,12 +1,15 @@
 .main-content {
     background-image: linear-gradient(to right, #737285 , #030303 );
-    margin-bottom: -300px;
-    height: 100%;
+    margin: 0px;
+    height: 800px;
+}
+body {
+    margin: 0px;
 }
 .text-heading {
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
-    color: #474545;
+    color: #888a8f;
     padding-left: 30px;
     padding-top: 30px;
     padding-bottom: 40px;
@@ -15,6 +18,9 @@
 
 }
 .white-text {
+    color: white;
+}
+#white-text {
     color: white;
 }
 .website-wrapper {
@@ -34,7 +40,7 @@
 .paragraph {
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
-    color: #474545;
+    color: #888a8f;
     padding-left: 30px;
     padding-bottom: 30px;
     width: 927px;
@@ -84,7 +90,25 @@
 }
 #blue {
     color: #51a5cf;
+    
 }
 .box-items {
     display: flex;
+    align-items: center;
+    height: 370px;
+}
+.box-items > .box {
+    width: 25%;
+    background-color: #404652;
+    height: 65px;
+    border: white solid 1px;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "open Sans" , sans-serif;
+    font-size: 1.5em;
 }
