@@ -1,5 +1,5 @@
 .main-content {
-    background-image: linear-gradient(to right, #737285 , #030303 );
+    background-image: linear-gradient(to right, #47474d , #030303 );
     margin: 0px;
     height: 800px;
 }
@@ -99,12 +99,12 @@ body {
 }
 .box-items > .box {
     width: 25%;
-    background-color: #404652;
-    height: 65px;
+    background-color: #47474d;
+    height: 55px;
     border: white solid 1px;
-    border-top: none;
-    border-bottom: none;
-    border-left: none;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    border-left: white solid 1px;
     display: flex;
     justify-content: center;
     align-items: center;
